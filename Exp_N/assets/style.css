@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    color: rgb(14, 102, 18);
+    background: linear-gradient(90deg, rgb(100, 255, 100), rgb(46, 211, 46));
+}
+.headExpe{
+    padding: 1em;
+    box-shadow: 0 5px 15px 1px rgb(9, 150, 9);
+    background-color:rgba(141, 252, 141,.5);
+    margin-bottom: 2em;
+}
+.mainExpe{
+    padding: 1em;
+}
+.mainExpe_part{
+    border-radius: 20px;
+    background-color: rgb(132, 255, 132);
+    margin-bottom: 1em;
+    height: auto;
+}
+.mainExpe_part .mainExpe_part__title{
+    background-color: rgb(8, 126, 8);
+    padding: 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    color: rgb(224, 255, 224);
+}
+.mainExpe_part .mainExpe_part__content{
+    padding: 1em;
+}
+.mainExpe_part .mainExpe_part__content.block{
+    display: block;
+}
+.mainExpe_part .mainExpe_part__content.flex{
+    display: flex;
+}
+.mainExpe_part .mainExpe_part__content .mainExpe_part__content__box{
+    width: 20%;
+    height: 100px;
+    background-color: rgb(9, 150, 9);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+    color: rgb(224, 255, 224);
+    cursor: pointer;
+}
+.mainExpe_part .mainExpe_part__content .mainExpe_part__content__box:hover{
+    background-color: rgb(25, 187, 25);
+}
+.mainExpe_part .mainExpe_part__content .mainExpe_part__content__box:active{
+    background-color: rgb(52, 221, 52);
+    color: rgb(15, 107, 15);
+}
+.mainExpe_part__content.block .mainExpe_part__content__box{
+    margin-bottom: 20px;
+}
+.mainExpe_part__content.flex .mainExpe_part__content__box{
+    margin-right: 1em;
+}
+.mainExpe_part .mainExpe_part__content .mainExpe_part__content__box:last-child{
+    margin: 0;
+}
